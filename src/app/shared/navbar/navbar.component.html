@@ -1,32 +1,53 @@
+<header class="fixed top-0 left-0 w-full z-50 backdrop-blur-md bg-black/30 border-b border-white/10">
+  <div class="max-w-screen-xl flex items-center justify-between mx-auto px-6 py-4">
 
-<header class="bg-neutral-primary fixed w-full z-20 top-0 start-0 border-b border-default">
-  <div class="max-w-screen-xl flex flex-wrap items-center justify-between mx-auto p-4">
-    <a href="https://flowbite.com/" class="flex items-center space-x-3 rtl:space-x-reverse">
-        <img src="https://flowbite.com/docs/images/logo.svg" class="h-7" alt="Flowbite Logo" />
-        <span class="self-center text-xl text-heading font-semibold whitespace-nowrap">Virtual Paddock</span>
+    <!-- Logo -->
+    <a href="#" class="flex items-center space-x-3">
+      <img src="https://flowbite.com/docs/images/logo.svg" class="h-7" alt="Virtual Paddock Logo" />
+      <span class="text-xl font-semibold text-white tracking-wide">
+        Virtual Paddock
+      </span>
     </a>
-    <button data-collapse-toggle="navbar-default" type="button" class="inline-flex items-center p-2 w-10 h-10 justify-center text-sm text-body rounded-base md:hidden hover:bg-neutral-secondary-soft hover:text-heading focus:outline-none focus:ring-2 focus:ring-neutral-tertiary" aria-controls="navbar-default" aria-expanded="false">
-        <span class="sr-only">Open main menu</span>
-        <svg class="w-6 h-6" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="none" viewBox="0 0 24 24"><path stroke="currentColor" stroke-linecap="round" stroke-width="2" d="M5 7h14M5 12h14M5 17h14"/></svg>
+
+    <!-- Mobile button -->
+    <button type="button"
+      class="md:hidden inline-flex items-center justify-center w-10 h-10 rounded-lg text-white hover:bg-white/10 transition">
+      <svg class="w-6 h-6" fill="none" stroke="currentColor" stroke-width="2"
+        viewBox="0 0 24 24">
+        <path stroke-linecap="round" stroke-linejoin="round"
+          d="M4 6h16M4 12h16M4 18h16" />
+      </svg>
     </button>
-    <div class="hidden w-full md:block md:w-auto" id="navbar-default">
-      <ul class="font-medium flex flex-col p-4 md:p-0 mt-4 border border-default rounded-base bg-neutral-secondary-soft md:flex-row md:space-x-8 rtl:space-x-reverse md:mt-0 md:border-0 md:bg-neutral-primary">
-        <li>
-          <a href="#" class="block py-2 px-3 text-white bg-brand rounded md:bg-transparent md:text-fg-brand md:p-0" aria-current="page">Inicio</a>
-        </li>
-        <li>
-          <a href="#" class="block py-2 px-3 text-heading rounded hover:bg-neutral-tertiary md:hover:bg-transparent md:border-0 md:hover:text-fg-brand md:p-0 md:dark:hover:bg-transparent">Ligas</a>
-        </li>
-        <li>
-          <a href="#" class="block py-2 px-3 text-heading rounded hover:bg-neutral-tertiary md:hover:bg-transparent md:border-0 md:hover:text-fg-brand md:p-0 md:dark:hover:bg-transparent">Pilotos</a>
-        </li>
-        <li>
-          <a href="#" class="block py-2 px-3 text-heading rounded hover:bg-neutral-tertiary md:hover:bg-transparent md:border-0 md:hover:text-fg-brand md:p-0 md:dark:hover:bg-transparent">Equipos</a>
-        </li>
-        <li>
-          <a href="#" class="block py-2 px-3 text-heading rounded hover:bg-neutral-tertiary md:hover:bg-transparent md:border-0 md:hover:text-fg-brand md:p-0 md:dark:hover:bg-transparent">Estadisticas</a>
-        </li>
-      </ul>
-    </div>
+
+    <!-- Links -->
+    <nav class="hidden md:flex items-center space-x-8 text-sm font-medium">
+
+      <a href="#" class="text-white/80 hover:text-white transition">
+        Inicio
+      </a>
+
+      <a href="#" class="text-white/80 hover:text-white transition">
+        Ligas
+      </a>
+
+      <a href="#" class="text-white/80 hover:text-white transition">
+        Pilotos
+      </a>
+
+      <a href="#" class="text-white/80 hover:text-white transition">
+        Equipos
+      </a>
+
+      <a href="#" class="text-white/80 hover:text-white transition">
+        Estadísticas
+      </a>
+
+      <!-- CTA -->
+      <a href="#"
+        class="px-5 py-2 rounded-full bg-white text-black font-semibold hover:bg-opacity-90 transition">
+        Ingresar
+      </a>
+
+    </nav>
   </div>
 </header>
