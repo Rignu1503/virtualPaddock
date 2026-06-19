@@ -1,14 +1,14 @@
 import { Component, OnInit, signal } from '@angular/core';
 import { RouterOutlet } from '@angular/router';
 import { initFlowbite } from 'flowbite';
-import { Lading } from "./lading/lading.component";
+import { NavbarComponent } from "./shared/navbar/navbar.component";
 @Component({
   selector: 'app-root',
-  imports: [RouterOutlet, Lading],
+  imports: [RouterOutlet, NavbarComponent],
   templateUrl: './app.html',
   styleUrl: './app.css'
 })
-export class App implements OnInit{
+export class AppComponent implements OnInit{
 
    ngOnInit(): void {
     initFlowbite();
